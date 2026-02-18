@@ -129,25 +129,18 @@ Thinking outside the technology box, manufacturers have an incentive for their p
 
 ---
 
-## Getting started
+## Getting Started
 
-Creating ground truth examples and understanding what is SoTA:
+Goal: create ground truth examples and understand the state of the art.
 
-Vendors:
+### Vendors Evaluated
 
-- Landing.ai Agentic Document Extraction
-- Claude (Opus 4.6)
+- **LandingAI ADE** — used to extract a full 11-page example; API available for wiring up
+- **Claude Opus 4.6** — used in the Claude interface to interpret page 1
 
-- Used LandingAI ADE, to create one example of what good looks like
-  - Can wire up API
-- Used Opus in the Claude interface to interpret just the first page
+### Progress
 
-Process:
-
-- Used both vendors manually and eyeballed the outputs for page 1
-  - Asked Claude Code to assess LandingAI's page 1 extraction treating Opus4.6 output as the ground truth
-  - Reviewed the comparative report
--
-- Saw the first two videos of the deeplearning.ai course on this to understand the tip of their process
-  - TODO: Complete the rest of the course (3 hours)
--
+- [x] Used both vendors manually and eyeballed outputs for page 1
+  - [x] Asked Claude Code to compare LandingAI's page 1 extraction against Opus 4.6 as ground truth
+  - [x] Reviewed the comparative report
+- [x] Watched the first two videos of the deeplearning.ai document AI course

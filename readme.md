@@ -1,27 +1,12 @@
-Project overall goal:
+# pdf-to-query
 
-PDF upload
-↓
-OCR + layout parsing
-↓
-smart chunking
-↓
-embedding generation
-↓
-vector database storage
-↓
-retrieval
-↓
-LLM structured extraction
-↓
-ranking / scoring
-↓
-JSON API output
-↓
-Django demo UI
+An end-to-end pipeline that ingests product spec sheet PDFs, extracts structured data, and exposes it via natural language search and a catalog UI.
 
----
+```
+PDFs → OCR + layout parsing → chunking → embeddings → vector DB → retrieval → LLM extraction → API → UI
+```
 
-Step 1:
-v2: Web scraping
-v1: Static PDFs in a folder
+**Data source — v1:** Static PDFs in `backend/data/`
+**Data source — v2:** Web scraping pipeline *(planned)*
+
+See `plan/` for full architecture and approach.

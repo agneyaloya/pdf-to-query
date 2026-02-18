@@ -7,9 +7,9 @@ PDFs → OCR + layout parsing → chunking → embeddings → vector DB → retr
 ```
 
 **Data source — v1:** Static PDFs in `backend/data/`
-**Data source — v2:** Web scraping pipeline *(planned)*
+**Data source — v2:** Web scraping pipeline _(planned)_
 
-See `plan/` for full architecture and approach.
+Check out [approach.md](plan/approach.md) for my in-process notes including technical trade-offs and product considerations.
 
 ---
 
